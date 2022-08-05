@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="css/style.css">
+  <title> Media Dashboard | Frontend Mentor</title>
+</head>
+<body>
+
+  <main>
+    <div class="sm-card">
+
+      <div class="sm-card__title-toggle-wrapper">
+        <div class="sm-card__title">
+          <h1>Social Media Dashboard</h1>
+          <p> Total Followers: 23,004</p>
+        </div>
+        <hr class="divider">
+        <div class="sm-card__toggle">
+          <p>Dark Mode</p>
+          <input type="checkbox" id="cb">
+          <label for="cb" class="switch">
+            <span class="slider round"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="sm-card__followers">
+        <div class="card follower follower__facebook">
+          <div class="follower_app-username"><i><img src="images/icon-facebook.svg" alt="facebook icon"></i> <span class="username">@nathanf</span></div>
+          <h2>1987</h2>
+          <p class="follower-text">Followers</p>
+          <p class="follower-count gain">12 Today</p>
+        </div>
+        <div class="card follower follower__twitter">
+          <div class="follower_app-username"><i><img src="images/icon-twitter.svg" alt="twitter icon"></i> <span class="username">@nathanf</span></div>
+
+          <h2>1044</h2>
+          <p class="follower-text">Followers</p>
+          <p class="follower-count gain">99 Today</p>
+        </div>
+        <div class="card follower follower__instagram">
+          <div class="follower_app-username"><i><img src="images/icon-instagram.svg" alt="instagram icon"></i> <span class="username">@realnathanf</span></div>
+          <h2>11k</h2>
+          <p class="follower-text">Followers</p>
+          <p class="follower-count gain">1099 Today</p>
+        </div>
+        <div class="card follower follower__youtube">
+          <div class="follower_app-username"><i><img src="images/icon-youtube.svg" alt="youtube"></i> <span class="username"> Nathan F.</span></div>
+          <h2>8239</h2>
+          <p class="follower-text">Subscribers</p>
+          <p class="follower-count loss"> 144 Today</p>
+        </div>
+      </div>
+      <h3 class="overview-title">  Overview - Today</h3>
+      <div class="sm-card__likes">
+        <div class="card like">
+          <div class="likes-title__wrapper">
+            <p class="title">Page Views</p>
+            <i class="icon-wrapper"><img src="images/icon-facebook.svg" alt="facebook icon"></i>
+          </div>
+          <div class="likes-view__wrapper">
+            <div class="view-count">87</div>
+            <div class="view-percent gain">3%</div>
+          </div>
+        </div>
+        <div class="card like">
+          <div class="likes-title__wrapper">
+            <p class="title">Likes</p>
+            <i class="icon-wrapper"><img src="images/icon-facebook.svg" alt="facebook icon"></i>
+          </div>
+          <div class="likes-view__wrapper">
+            <div class="view-count">52</div>
+            <div class="view-percent loss">2%</div>
+          </div>
+        </div>
+        <div class="card like">
+          <div class="likes-title__wrapper">
+            <p class="title">Likes</p>
+            <i class="icon-wrapper"><img src="images/icon-instagram.svg" alt="instagram icon"></i>
+          </div>
+          <div class="likes-view__wrapper">
+            <div class="view-count">5462</div>
+            <div class="view-percent gain"> 2257%</div>
+          </div>
+        </div>
+        <div class="card like">
+          <div class="likes-title__wrapper">
+            <p class="title">Profile Views</p>
+            <i class="icon-wrapper"><img src="images/icon-instagram.svg" alt="instagram icon"></i>
+          </div>
+          <div class="likes-view__wrapper">
+            <div class="view-count">52k</div>
+            <div class="view-percent gain">1375%</div>
+          </div>
+        </div>
+        <div class="card like">
+          <div class="likes-title__wrapper">
+            <p class="title">Retweets</p>
+            <i class="icon-wrapper"><img src="images/icon-twitter.svg" alt="twitter icon"></i></i>
+          </div>
+          <div class="likes-view__wrapper">
+            <div class="view-count">117</div>
+            <div class="view-percent gain">303%</div>
+          </div>
+        </div>
+        <div class="card like">
+          <div class="likes-title__wrapper">
+            <p class="title">Likes</p>
+            <i class="icon-wrapper"><img src="images/icon-twitter.svg" alt="twitter icon"></i>
+          </div>
+          <div class="likes-view__wrapper">
+            <div class="view-count">507</div>
+            <div class="view-percent gain">533%</div>
+          </div>
+        </div>
+        <div class="card like">
+          <div class="likes-title__wrapper">
+            <p class="title">Likes</p>
+            <i class="icon-wrapper"><img src="images/icon-youtube.svg" alt="youtube"></i>
+          </div>
+          <div class="likes-view__wrapper">
+            <div class="view-count">107</div>
+            <div class="view-percent loss">19%</div>
+          </div>
+        </div>
+        <div class="card like">
+          <div class="likes-title__wrapper">
+            <p class="title"> Total Views</p>
+            <i class="icon-wrapper"><img src="images/icon-youtube.svg" alt="youtube"></i>
+          </div>
+          <div class="likes-view__wrapper">
+            <div class="view-count">1407</div>
+            <div class="view-percent loss">12%</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </main>
+  
+  <script src="js/script.js"></script>
+</body>
+</html>
