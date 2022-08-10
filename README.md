@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: []()
+- Live Site URL: [Link](https://social-media-dashboard-o.netlify.app/)
 
 ## My process
 
