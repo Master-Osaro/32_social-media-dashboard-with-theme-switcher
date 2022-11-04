@@ -347,6 +347,7 @@ input:checked+label .slider:before {
     }
 
     .divider{
+        display: block;
         border: none;
         border-bottom: 1px solid var(--secondary-text);
         width: 100%;
