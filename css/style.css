@@ -337,6 +337,10 @@ input:checked+label .slider:before {
     background: url(../images/icon-down.svg) no-repeat;
 }
 
+ .divider{
+     display: none;
+  }
+
 @media screen and (max-width: 772px) {
     body{
         display: block;
